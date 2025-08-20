@@ -49,6 +49,7 @@ client.on('ready', () => {
     name: "Smile, you're on camera.",
     type: ActivityType.Custom,
   });
+  console.log('Logged in as', client.user?.tag);
 });
 
 assert(
